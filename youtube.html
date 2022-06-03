@@ -5,6 +5,11 @@
         <style>
            .youtube {
                width: 300px;
+               height: 200px;
+               display: block;
+           }
+
+           .search-bar {
                display: block;
            }
 
@@ -12,27 +17,43 @@
                width: 300px;
            }
 
-           .team {
-               text-decoration: underline;
-               text-underline-offset: 1em;
+           .video-preview {
+               display: inline-block;
+               width: 300px;
            }
         </style>
     </head>
     <body>
         <input class="search-bar" type="text" placeholder="search">
-        <img class="youtube" src="Youtube images/hqdefault.webp" alt="Apostle Joshua Selman">
-        
 
-        <p class="video-title"><strong>
+        <div class="video-preview">
+
+            <img class="youtube" src="Youtube images/hqdefault.webp" alt="Apostle Joshua Selman">
+
+            <p class="video-title"><strong>
             Death Has Been Swallowed Up in Victory
-        </strong>
-        </p>
-        <p class="video-author">
+            </strong>
+            </p>
+            <p class="video-author">
             Apostle Joshua Selman
-        </p>
-        <p class="video-stats">
+            </p>
+            <p class="video-stats">
             1K views &#183; 3 hours ago
-        </p>
-        <p class="Team">Manchester United</p>
+            </p>
+        </div>
+        
+        <div class="video-preview">
+
+            <img class="youtube" src="Youtube images/pastor chris.jpg.crdownload" alt="Pastor Chris">
+
+            <p class="video-title"><strong>God's Word is Final</strong>
+            </p>
+            <p class="video-author">
+                Pastor chris
+            </p>
+            <p class="video-stats">
+                1K views &#183; 4 hours ago
+            </p>
+        </div>
     </body>
 </html>
